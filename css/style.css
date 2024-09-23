@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Unbounded';
+    src: url('../assets/fonts/Unbounded-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+}
+
+body {
+    font-family: "Unbounded", sans-serif;
+    font-style: normal;
+}
+
+header {
+    /* height: 528px; */
+    background-image: url(../assets/images/hand-m.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    display: none;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13.35px 0;
+    gap: 6.65px;
+}
+
+.hero {
+    width: 100%;
+    padding: 160px 46px 60px 24px;
+
+}
+
+
+h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.concetti {
+    max-width: 360px;
+    font-weight: 700;
+    /* Galaxy S8 '2.5'*/
+    font-size: 2rem; 
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+p,
+ul {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 24px;
+}
+
+ul li::marker {
+    font-size: 12px;
+}
+
+.wrap {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.wrap h2 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.wrap p {
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.0625;
+    color: #FFFFFF;
+}
+
+.gold {
+    display: none;
+}
+
+.section-wrap {
+    padding: 80px 24px;
+}
+
+.gap-p {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.gap {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+}
