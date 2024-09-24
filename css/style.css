@@ -9,8 +9,12 @@ body {
     font-style: normal;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header {
-    /* height: 528px; */
     background-image: url(../assets/images/hand-m.png);
     background-size: cover;
     background-position: center;
@@ -35,22 +39,10 @@ header {
 
 }
 
-
-h1 {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 1.33;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
 .concetti {
     max-width: 360px;
     font-weight: 700;
-    /* Galaxy S8 '2.5'*/
-    font-size: 2rem; 
+    font-size: 2rem;
     line-height: 120%;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -60,7 +52,7 @@ h1 {
 p,
 ul {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 150%;
     color: #000000;
 }
@@ -106,6 +98,7 @@ ul li::marker {
 .gap-p {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 24px;
     margin-bottom: 60px;
 }
@@ -113,7 +106,9 @@ ul li::marker {
 .gap {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 24px;
+    align-items: flex-start;
 }
 
 h3 {
@@ -122,4 +117,184 @@ h3 {
     line-height: 120%;
     text-transform: uppercase;
     color: #000000;
+}
+
+.bg-g {
+    background-color: #F0EFFC;
+}
+
+h4 {
+    max-width: 298px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-block-start: 0;
+}
+
+.yellow {
+    width: 60px;
+    height: 60px;
+    background-color: #FFE500;
+
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-g {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.img-mt {
+    margin-top: 36px;
+}
+
+footer {
+    background: #A3A5D1;
+    padding: 73px 12px 80px 12px;
+}
+
+.list {
+    color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-left: 0;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.copy {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.oswald {
+    font-weight: 900;
+    font-size: 1.4rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+ 
+input[type="email"] {
+    background-color: #ECECEC;
+    width: 75%;
+    border: none;
+    padding: 16px 19px;
+    font-weight: 300;
+    outline: none;
+}
+
+input::placeholder {
+    color: #000000
+  }
+
+button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (min-width: 25rem) {
+    .concetti {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    header {
+        background-image: url(../assets/images/hand.png);
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 24px;
+    }
+    
+    .concetti {
+        font-size: 3.75rem;
+    }
+
+    .menu {
+        color: #FFFFFF;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .g-cover {
+        max-width: 268px;
+        padding: 16px 20px;
+    }
+    
+    form {
+        display: flex;
+    }
+    
+    .generare-entrate {
+        display: flex;
+        gap: 16px;
+    }
+    
+}
+
+@media screen and (min-width: 68rem) {
+
+    nav {
+        margin: 0 64px;
+    }
+
+    .hero {
+        padding: 120px 64px;
+    }
+        
+    .sca {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 120%;
+        color: #000000;
+        padding-bottom: 20px;
+    }
+    
+    .for {
+        font-weight: 300;
+        font-size: 0.625rem;
+        line-height: 120%;
+        opacity: 0.6;
+        padding-top: 20px;
+    }
+
+    article {
+        width: 65%;
+    }
+
+    .gold {
+        width: 25%;
+        display: block;
+    }
+
+    .section-wrap {
+        padding: 80px 64px;
+        text-align: start;
+    }
 }
